@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/detail_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/detail_height"
+    android:layout_gravity="bottom"
+    android:background="@drawable/bar_drawable">
+
+    <ImageButton
+        android:id="@+id/favorite"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:paddingTop="6dp"
+        android:src="@drawable/ic_fav" />
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="6dp"
+        android:text="..."
+        android:textColor="@color/logo_blue"
+        android:textSize="14sp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/bike"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:adjustViewBounds="true"
+        android:paddingTop="4dp"
+        android:src="@drawable/ic_bike" />
+
+    <TextView
+        android:id="@+id/bike_number"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="2dp"
+        android:layout_toLeftOf="@id/bike"
+        android:gravity="center"
+        android:text="."
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/parking"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/bike"
+        android:layout_marginBottom="6dp"
+        android:layout_marginRight="10dp"
+        android:adjustViewBounds="true"
+        android:paddingBottom="6dp"
+        android:paddingTop="4dp"
+        android:src="@drawable/ic_parking" />
+
+    <TextView
+        android:id="@+id/parking_number"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="4dp"
+        android:layout_toLeftOf="@id/parking"
+        android:gravity="center"
+        android:text="."
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/station_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="46dp"
+        android:layout_marginRight="82dp"
+        android:gravity="left"
+        android:maxLines="2"
+        android:paddingTop="6dp"
+        android:text="..."
+        android:textColor="@color/text_color"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:typeface="sans" />
+
+</RelativeLayout>
+  		

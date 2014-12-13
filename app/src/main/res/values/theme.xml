@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- the theme applied to the application or activity -->
+
+    <style name="CustomActionBarTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/logo_blue_light</item>
+
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/logo_blue</item>
+
+        <!-- colorAccent is used as the default value for colorControlActivated,
+             which is used to tint widgets -->
+        <item name="colorAccent">@color/logo_blue_light</item>
+
+        <!-- You can also set colorControlNormal, colorControlActivated
+             colorControlHighlight, and colorSwitchThumbNormal. -->
+
+
+        <!-- declared twice -->
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+
+    </style>
+
+
+    <!-- ActionBar styles -->
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar.Solid">
+
+        <item name="android:backgroundStacked">@color/white</item>
+        <item name="backgroundStacked">@color/white</item>
+
+        <!--  item name="android:background">@drawable/actionbar_drawable</item>
+        <item name="background">@drawable/actionbar_drawable</item-->
+
+        <item name="android:subtitleTextStyle">@style/MyTextAppearance</item>
+        <item name="subtitleTextStyle">@style/MyTextAppearance</item>
+
+    </style>
+
+    <!-- Text Appearance styles -->
+
+    <style name="MyTextAppearance" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+
+        <item name="android:textColor">@color/light_gray</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">12sp</item>
+
+    </style>
+
+</resources>

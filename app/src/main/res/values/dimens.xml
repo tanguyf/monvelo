@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- marker -->
+    <dimen name="center_bike">11dip</dimen>
+    <dimen name="center_closed">3dip</dimen>
+    <dimen name="center_stand">1dip</dimen>
+
+    <dimen name="center_big_bike">21dip</dimen>
+    <dimen name="center_big_stand">0dip</dimen>
+    <dimen name="center_big_x">10dip</dimen>
+
+    <!-- detail bar -->
+    <dimen name="text_size">13sp</dimen>
+    <dimen name="big_text_size">18sp</dimen>
+
+    <dimen name="refresh_top_margin_standard">10dp</dimen>
+    <dimen name="config_top_margin_standard">50dp</dimen>
+    <dimen name="buttons_size">30dp</dimen>
+    <dimen name="detail_height">80dp</dimen>
+    <dimen name="image_padding_top_bottom">11dp</dimen>
+
+    <!-- contract screen -->
+    <dimen name="ok_bar_height">60dp</dimen>
+
+</resources>
